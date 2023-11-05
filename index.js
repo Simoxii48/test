@@ -5,7 +5,7 @@ const router = express.Router()
 app.use(express.json())
 
 router.get("/",(req,res) => {
-    res.json("Hello World!")
+    res.send(<h2>hello world</h2>)
 })
 
 
