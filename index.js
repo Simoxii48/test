@@ -4,8 +4,8 @@ const router = express.Router()
 
 app.use(express.json())
 
-router.get("/",(req,res) => {
-    res.send(<h2>hello world</h2>)
+app.get("/",(req,res) => {
+    res.send("hello boras")
 })
 
 
